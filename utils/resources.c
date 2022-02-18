@@ -15,7 +15,7 @@
 extern char *progname;
 
 
-#if !defined(HAVE_COCOA) && !defined(HAVE_ANDROID)
+#if !defined(HAVE_COCOA) && !defined(HAVE_ANDROID) && !defined(HAVE_SDL)
 
 #include <X11/Xresource.h>
 

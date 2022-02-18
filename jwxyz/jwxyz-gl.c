@@ -97,9 +97,9 @@
 # endif
 #endif
 
-#ifdef HAVE_JWZGLES
-# include "jwzglesI.h"
-#endif
+//#ifdef HAVE_JWZGLES
+//# include "jwzglesI.h"
+//#endif
 
 #include "jwxyzI.h"
 #include "jwxyz-timers.h"

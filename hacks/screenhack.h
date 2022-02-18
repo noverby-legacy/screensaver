@@ -21,7 +21,7 @@
    In a Cocoa/Android world, we only define the prefixed symbol;
    the un-prefixed symbol does not exist.
  */
-#ifdef HAVE_JWXYZ
+#ifdef defined(HAVE_JWXYZ) && !defined(HAVE_SDL)
 # define XSCREENSAVER_LINK(NAME)
 #else
 # define XSCREENSAVER_LINK(NAME) \

@@ -1,0 +1,2 @@
+jwxyz_lib = static_library('jwxyz', ['jwxyz-common.c', 'jwxyz-sdl.c', 'jwxyz-sdl-wm.c', 'jwxyz-gl.c', 'jwzgles.c', 'jwxyz-timers.c'], c_args: global_args, dependencies: utils_dep, include_directories: hacks_inc)
+jwxyz_dep = declare_dependency(link_with: jwxyz_lib, include_directories: jwxyz_inc)

@@ -14,7 +14,7 @@
 #include "xft.h"
 #include "fpsI.h"
 
-#include <time.h>
+#include <sys/time.h>
 
 fps_state *
 fps_init (Display *dpy, Window window)

@@ -68,6 +68,8 @@
 #  include "jwxyz.h"
 #elif defined(HAVE_ANDROID)
 #  include "jwxyz.h"
+#elif defined(HAVE_SDL)
+#  include "jwxyz.h"
 # else
 #  include <X11/Xlib.h>
 # endif
